@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakso Manteb Barokah Penidon Plumpang Bakso atas Telaga Enak</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* tambahkan kode CSS untuk membuat layout lebih responsif */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    section {
+      background-color: #f7f7f7;
+      padding: 1em;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      clear: both;
+    }
+    /* tambahkan kode CSS untuk membuat layout lebih responsif pada perangkat mobile */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        margin-bottom: 10px;
+      }
+      main {
+        padding: 1em;
+      }
+      section {
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 480px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        margin-bottom: 5px;
+      }
+      main {
+        padding: 0.5em;
+      }
+      section {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#menu"><i class="fas fa-utensils"></i> Menu</a></li>
+        <li><a href="#lokasi"><i class="fas fa-map-marker-alt"></i> Lokasi</a></li>
+        <li><a href="#kontak"><i class="fas fa-phone"></i> Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Bakso Manteb Barokah</h1>
+      <p>Warung bakso terlezat di Desa Penidon, Kecamatan Plumpang, Kabupaten Tuban</p>
+      <img src="warunge mas.jpg" alt="Bakso Manteb Barokah" class="img-home">
+    </section>
+    <section id="menu">
+      <h2>Menu Bakso Manteb Barokah</h2>
+      <ul>
+        <li><i class="fas fa-check-circle"></i> Bakso Rusuk</li>
+        <li><i class="fas fa-check-circle"></i> Bakso lava</li>
+        <li><i class="fas fa-check-circle"></i> Bakso Tetelan</li>
+        <li><i class="fas fa-check-circle"></i> Bakso Jumbo</li>
+        <li><i class="fas fa-check-circle"></i> Bakso Selimut</li>
+        <li><i class="fas fa-check-circle"></i> Es Teh</li>
+        <li><i class="fas fa-check-circle"></i> Es Jeruk</li>
+        <li><i class="fas fa-check-circle"></i> Es Degan</li>
+        <li><i class="fas fa-check-circle"></i> Es Susu</li>
+      </ul>
+      <img src="menu.jpg" alt="Menu Bakso Manteb Barokah" class="img-menu">
+    </section>
+    <section id="lokasi">
+      <h2>Lokasi Bakso Manteb Barokah</h2>
+      <p>Desa Penidon, Kecamatan Plumpang, Kabupaten Tuban</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.828065503918!2d112.13257127318082!3d-7.029485868864228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7791a90a2f934f%3A0x3183df2d1297fab5!2sBakso!5e0!3m2!1sid!2sid!4v1733998841645!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section id="kontak">
+        <h2>Kontak Bakso Manteb Barokah</h2>
+        <p><a href="https://wa.me/6282229659827">Kontak Kami via WhatsApp</a></p>
+        <p><a href="https://www.instagram.com/_u/bakso_manteb_barokah">Kontak Kami via Instagram</a></p>
+        <p><a href="fb://profile/Bakso Ronggolawe">Kontak Kami via Facebook</a></p>
+        <img src="Screenshot 2024-12-12 162854.png" alt="Kontak Bakso Manteb Barokah" class="img-kontak">
+      </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Bakso Manteb Barokah</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
